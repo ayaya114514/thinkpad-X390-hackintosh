@@ -36,8 +36,8 @@
 | CPU | Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz |
 | Model |  Lenevo 20Q1|
 | Displayer | Lenevo LEN4094 ( 13.3 inch  ) |
-| Memory | 16 GB ( 2x8 Samsung DDR4 2400 MHz ) |
-| NVMe SSD | NVME WD Blue SN570 500GB |
+| Memory | 8 GB ( 1x8 Samsung DDR4 2400 MHz ) |
+| NVMe SSD | NVME WD Blue SN570 256GB |
 | Integrated Graphics | Intel UHD Graphics 620 (Mobile) |
 | Ethernet |  Intel(R) Ethernet Connection (6) I219-V |
 | Sound Card | Intel Intel Smart Sound Technology Audio Controller (layout-id: 11) |
