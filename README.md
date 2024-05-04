@@ -1,8 +1,8 @@
-# Hackintosh Thinkpad X390 Ventura (13.4 - OC 0.9.2)
+# thinkpadX390-hackintosh Sonoma (14.4.1 - OC 0.9.9)
 
 ## Table of Contents
 
-- [Hackintosh Thinkpad X390 Ventura (13.4 - OC 0.9.2)](#hackintosh-thinkpad-x390-ventura-134---oc-092)
+- [thinkpadX390-hackintosh Sonoma (14.4.1 - OC 0.9.9)](#thinkpadX390-hackintosh Sonoma (14.4.1 - OC 0.9.9))
   - [Table of Contents](#table-of-contents)
   - [Device Information](#device-information)
   - [Usage](#usage)
@@ -33,12 +33,12 @@
 | Specifications | Details |
 |:---|:---|
 | Computer Model | ThinkPad X390 |
-| CPU | Intel(R) Core(TM) i5-8365U CPU @ 1.60GHz |
+| CPU | Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz |
 | Model |  Lenevo 20Q1|
 | Displayer | Lenevo LEN4094 ( 13.3 inch  ) |
 | Memory | 16 GB ( 2x8 Samsung DDR4 2400 MHz ) |
 | NVMe SSD | NVME WD Blue SN570 500GB |
-| Integrated Graphics | Intel UHD Graphics 630 (Mobile) |
+| Integrated Graphics | Intel UHD Graphics 620 (Mobile) |
 | Ethernet |  Intel(R) Ethernet Connection (6) I219-V |
 | Sound Card | Intel Intel Smart Sound Technology Audio Controller (layout-id: 11) |
 | Wireless Card |  Intel(R) Wireless-AC 9560 160MHz |
@@ -55,7 +55,7 @@ If you have the same computer as me, you just need to replace your EFI with the 
 
 #### CPU
 
-Functioning normally. Patched with CPUFriend.kext: 0.8 GHz (Min) - 4.1 GHz(Max)
+Functioning normally. Patched with CPUFriend.kext: 1.6 GHz (Min) - 3.9 GHz(Max)
 
 #### Battery
 
@@ -114,29 +114,33 @@ Functioning normally.
 
 ## What-is-not-working
 
-- Airdrops, AirPlay, and Continuity Camera fail to work properly, but Handoff works.
+- AirPlay, and Continuity Camera fail to work properly, but Handoff works, and Airdrops can achieve one-way transmission from computer to mobile phone
 
 ## Recommended-BIOS-Config
 
 - Security
   - Intel SGX: Software Controlled
 - Boot
-  - Boot Mode: UEFI Only (CSM Yes)
-- I/O Port Access:
-  - Temporarily disable Thunderbolt port (set to enable after successfully installed macOS Ventura)
+  - Boot Mode: UEFI Only (CSM Yes) （if the option is not available, please search for a solution on your own）
 
 ## Tips
 
+-Airdrops
+ -When the Mac OS version is 14.4.1 and iOS version is 17.4, using AirportItlwm can achieve one-way transmission from computer to phone (I am not sure if higher versions are still applicable, as this feature started with Sonoma 14.4.1)
+-Upgrade
+ -If you are using an previous EFI update before Sonoma, please make sure that your Misc Security SecureBootModel is set to Disabled. When the update is completed, you can ignore it or set it to Default
+ -When you update the kernel, please make sure to delete the original kernel in the kext folder before proceeding with the update
 ### Hibernation
 
 Hibernation is supported. No serious issue found after wake-up.
 
 ## Support
 
-**Ventura**
-- 13.4
+**Sonoma**
+- 14.4.1
 
 ## Credits
+- [@mahronid](https://github.com/mahronid) for [thinkpad-x390-hackintosh](https://github.com/mahronid/thinkpad-x390-hackintosh)
 - [@mendax1234](https://github.com/mendax1234) for [ThinkpadX390-Opencore-EFI](https://github.com/mendax1234/ThinkpadX390-Opencore-EFI)
 - [@VGEAREN](https://github.com/VGEAREN) for [Lenovo-X390-Big-Sur-OC-EFI](https://github.com/VGEAREN/Lenovo-X390-Big-Sur-OC-EFI)
 - [@bayukp](https://github.com/bayukp) for [Thinkpad-X390-Opencore](https://github.com/bayukp/Thinkpad-X390-Opencore)
