@@ -126,12 +126,12 @@ Functioning normally.
 ## Questions-and-Issues
 
 - Airdrops
- - When the Mac OS version is 14.4.1 and iOS version is 17.4, using AirportItlwm can achieve one-way transmission from computer to iphone (I am not sure if higher versions are still applicable, as this feature started with Sonoma 14.4.1)
+  - When the Mac OS version is 14.4.1 and iOS version is 17.4, using AirportItlwm can achieve one-way transmission from computer to iphone (I am not sure if higher versions are still applicable, as this feature started with Sonoma 14.4.1)
 - warning
- - This efi is only applicable to Sonoma 14.4. If it is lower than this version, AirportItlwm needs to be replaced
+  - This efi is only applicable to Sonoma 14.4. If it is lower than this version, AirportItlwm needs to be replaced
 - Upgrade
- - If you are using an previous EFI update before Sonoma, please make sure that your Misc Security SecureBootModel is set to Disabled. When the update is completed, you can ignore it or set it to Default
- - When you update the kernel, please make sure to delete the original kernel in the kext folder before proceeding with the update
+  - If you are using an previous EFI update before Sonoma, please make sure that your Misc Security SecureBootModel is set to Disabled. When the update is completed, you can ignore it or set it to Default
+  - When you update the kernel, please make sure to delete the original kernel in the kext folder before proceeding with the update
 ### Hibernation
 
 Hibernation is supported. No serious issue found after wake-up.
