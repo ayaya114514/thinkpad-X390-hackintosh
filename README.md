@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-- [thinkpadX390-hackintosh Sonoma (14.4.1 - OC 0.9.9)](#thinkpadX390-hackintosh Sonoma (14.4.1 - OC 0.9.9))
+- [thinkpadX390-hackintosh Sonoma (14.4.1 - OC 0.9.9)](#thinkpadX390-hackintosh-Sonoma (14.4.1 - OC 0.9.9))
   - [Table of Contents](#table-of-contents)
   - [Device Information](#device-information)
   - [Usage](#usage)
